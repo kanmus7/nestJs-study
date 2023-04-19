@@ -7,7 +7,7 @@ export default registerAs('config', () => {
       port: process.env.TYPEORM_PORT,
       user: process.env.TYPEORM_USERNAME,
       password: process.env.TYPEORM_PASSWORD,
-      host: process.env.TYPEORM_PORT,
+      host: process.env.TYPEORM_HOST,
     },
   };
 });
